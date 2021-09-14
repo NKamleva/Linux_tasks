@@ -1,0 +1,5 @@
+1.cp /etc/services /tmp
+  vi /tmp/services
+	/WorldWideWeb<Enter>
+	cwWorldWide Web<Esc>
+	:wq
