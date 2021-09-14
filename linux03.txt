@@ -3,3 +3,9 @@
 	/WorldWideWeb<Enter>
 	cwWorldWide Web<Esc>
 	:wq
+2.vi /tmp/services2 
+	/Note that<Enter>
+	6dd
+	G
+	p
+	:wq	
