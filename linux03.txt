@@ -3,9 +3,12 @@
 	/WorldWideWeb<Enter>
 	cwWorldWide Web<Esc>
 	:wq
-2.vi /tmp/services2 
+2.vi /tmp/services 
 	/Note that<Enter>
 	6dd
 	G
 	p
 	:wq	
+3.vi /tmp/services
+	:g/tcp/s//WHATEVER/g<Enter>
+	:wq
