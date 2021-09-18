@@ -12,3 +12,13 @@
 3.vi /tmp/services
 	:g/tcp/s//WHATEVER/g<Enter>
 	:wq
+4.1.vi lorem_ipsum.txt
+	a.1G<enter>
+	b./sodales<enter>
+	  n
+	  n
+	  3dd
+	c.dd
+	d.u
+	e.:w lorem_ipsum.txt.task.01
+   :q! 
