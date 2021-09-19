@@ -13,7 +13,7 @@
 	:g/tcp/s//WHATEVER/g<Enter>
 	:wq
 4.1.vi lorem_ipsum.txt
-	a.1G<enter>
+	a.1G
 	b./sodales<enter>
 	  n
 	  n
@@ -22,3 +22,12 @@
 	d.u
 	e.:w lorem_ipsum.txt.task.01
    :q! 
+4.2.vi  lorem_ipsum.txt
+	a.G
+	b.4k
+	  6l
+	c.4dw
+	d.3l
+	e.df.
+	f.:w lorem_ipsum.txt.task.02
+   :q!
