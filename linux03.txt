@@ -39,3 +39,22 @@
 	  $
 	e.d
 	f.:q!<enter>
+4.4.vi lorem_ipsum.txt<enter>
+	a.1G
+	b./Etiam<enter>
+	c.i
+	  "<esc>
+	  l
+	  w
+	  h
+	  i
+	  "<esc>
+	d.?risus<enter>
+	e.$
+	  a
+  	  Word found!<esc>
+	f.0
+	  i
+	  This is the line!<esc>
+	g.:w lorem_ipsum.txt.task.04<enter>
+	  :q!
