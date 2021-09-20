@@ -1,18 +1,18 @@
 1.cp /etc/services /tmp
-  vi /tmp/services
+  vi /tmp/services<enter>
 	/WorldWideWeb<Enter>
 	cwWorldWide Web<Esc>
-	:wq
-2.vi /tmp/services 
+	:wq<enter>
+2.vi /tmp/services<enter>
 	/Note that<Enter>
 	6dd
 	G
 	p
-	:wq	
-3.vi /tmp/services
+	:wq<enter>
+3.vi /tmp/services<enter>
 	:g/tcp/s//WHATEVER/g<Enter>
-	:wq
-4.1.vi lorem_ipsum.txt
+	:wq<enter>
+4.1.vi lorem_ipsum.txt<enter>
 	a.1G
 	b./sodales<enter>
 	  n
@@ -20,14 +20,22 @@
 	  3dd
 	c.dd
 	d.u
-	e.:w lorem_ipsum.txt.task.01
+	e.:w lorem_ipsum.txt.task.01<enter>
    :q! 
-4.2.vi  lorem_ipsum.txt
+4.2.vi  lorem_ipsum.txt<enter>
 	a.G
 	b.4k
 	  6l
 	c.4dw
 	d.3l
 	e.df.
-	f.:w lorem_ipsum.txt.task.02
+	f.:w lorem_ipsum.txt.task.02<enter>
    :q!
+4.3.    a.cat lorem_ipsum.txt > lorem_ipsum.txt.task.03<enter> 
+	b.vi lorem_ipsum.txt.task.03<enter> 
+	  1G
+	c.v
+	d.G
+	  $
+	e.d
+	f.:q!<enter>
