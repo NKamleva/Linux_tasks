@@ -10,3 +10,9 @@
   cd projects
   touch house{1,2,3,4,5,6,7,8,9}
   ls house?
+3.mkdir -p $HOME/projects/houses/doors/
+  cd
+  touch projects/houses/bungalow.txt
+  touch projects/houses/doors/bifold.txt
+  mkdir -p projects/outdoors/vegetation/
+  touch $HOME/projects/outdoors/vegatation/landscape.txt
