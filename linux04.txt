@@ -6,3 +6,7 @@
   b.echo test/test*/*f.txt
   c.ls test/test1/*.txt
   d.ls test/test1
+2.mkdir projects
+  cd projects
+  touch house{1,2,3,4,5,6,7,8,9}
+  ls house?
