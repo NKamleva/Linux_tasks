@@ -4,3 +4,5 @@
     touch test/test{1,2,3}/{abc,def}/testfile
     cd -
   b.echo test/test*/*f.txt
+  c.ls test/test1/*.txt
+  d.ls test/test1
