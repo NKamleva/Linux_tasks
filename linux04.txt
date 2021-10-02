@@ -16,3 +16,5 @@
   touch projects/houses/doors/bifold.txt
   mkdir -p projects/outdoors/vegetation/
   touch $HOME/projects/outdoors/vegatation/landscape.txt
+4.cp $HOME/projects/house{1,2} $HOME/projects/houses
+5.cp -a  /usr/share/doc/init* $HOME/projects/
