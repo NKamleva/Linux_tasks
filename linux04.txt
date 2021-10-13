@@ -18,3 +18,9 @@
   touch $HOME/projects/outdoors/vegatation/landscape.txt
 4.cp $HOME/projects/house{1,2} $HOME/projects/houses
 5.cp -a  /usr/share/doc/init* $HOME/projects/
+6.ls -al $HOME/projects |less
+7.cd $HOME/projects
+  rm -f house{6,7,8}
+8.cd $HOME/projects
+  mv house{3,4,5}  $HOME/projects/houses/doors
+9.rm -rf $HOME/projects/houses/doors
