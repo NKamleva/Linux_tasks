@@ -24,3 +24,16 @@
 8.cd $HOME/projects
   mv house{3,4,5}  $HOME/projects/houses/doors
 9.rm -rf $HOME/projects/houses/doors
+10.touch LaÖLa
+   a)mv LaÖLa LaLa  
+   b)mv LaLa .LaLa
+   c)ls  -a
+   d)mkdir LALA
+     mv $HOME/.LaLa $HOME/LALA
+     cd LALA
+     pwd
+11. a.ls -a
+    b.ls -l
+    c.ls -u
+    d.ls -a
+   ls -alu 
