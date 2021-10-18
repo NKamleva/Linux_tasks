@@ -37,3 +37,4 @@
     c.ls -u
     d.ls -a
    ls -alu 
+12. ls -dl $HOME
