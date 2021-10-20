@@ -38,3 +38,10 @@
     d.ls -a
    ls -alu 
 12. ls -dl $HOME
+13. cd
+    mkdir L
+    cd L
+    touch L{1,2}
+    cd
+    cp -r L LL 
+    rm -r L
