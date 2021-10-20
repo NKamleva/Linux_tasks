@@ -45,3 +45,6 @@
     cd
     cp -r L LL 
     rm -r L
+14. touch file00{1,2}
+    cp  file001 file002 | cp -i file001 file002
+                          y
