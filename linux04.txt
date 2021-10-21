@@ -48,3 +48,15 @@
 14. touch file00{1,2}
     cp  file001 file002 | cp -i file001 file002
                           y
+15. touch file003
+    vi file003
+	file003
+    touch file004
+    vi file004
+	file004
+    cp -u file003 file004
+		a)file004
+		b)Souce file(file003) is older than file004
+    cp -u file004 file003
+		a)file004
+		b)Source file(file004) is newer than file003
