@@ -76,3 +76,6 @@
 	y
 19.touch 1
    ls -lu 1 
+20.mkdir -p dir1/subdir1
+   rmfir -p dir1/subdir1
+21.
