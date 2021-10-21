@@ -78,4 +78,6 @@
    ls -lu 1 
 20.mkdir -p dir1/subdir1
    rmfir -p dir1/subdir1
-21.
+21.mkdir -p dir{1,2}/{subdir,newdir}
+   rmdir -p dir{1,2}/{subdir,newdir}
+22.
