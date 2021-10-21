@@ -77,7 +77,12 @@
 19.touch 1
    ls -lu 1 
 20.mkdir -p dir1/subdir1
-   rmfir -p dir1/subdir1
+   rmdir -p dir1/subdir1
 21.mkdir -p dir{1,2}/{subdir,newdir}
    rmdir -p dir{1,2}/{subdir,newdir}
-22.
+22.chmod 640 $HOME/projects/house2
+23.chmod -R a-w $HOME/projects/
+24.touch testFile
+   mkdir testDir
+   rm ./* 1>./stdout.txt 2>./stderr.txt ?
+   rm ./* &>./stdouterr.txt
