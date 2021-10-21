@@ -60,3 +60,18 @@
     cp -u file004 file003
 		a)file004
 		b)Source file(file004) is newer than file003
+16. rm -i file00{1,2,3,4}
+	y
+	y
+	y
+	y
+17. rm -ri LALA
+	y
+	y
+	y
+    rm -ri L 
+	y
+	y
+	y
+	y
+19.
