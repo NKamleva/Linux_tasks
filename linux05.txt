@@ -1,0 +1,14 @@
+1.mkdir dev
+  find /etc -name passwd 2> /dev/null
+2.mkdir $HOME/TEST
+  touch $HOME/TEST/{one,two,three}
+  chmod 777 $HOME/TEST/{one,two,three}
+  find $HOME -perm -002 -type f -ls
+3.find /usr/share/doc -mtime +300
+4.mkdir /tmp/FILES
+  find /usr/share -size +5M -size -10M -exec cp {} /tmp/FILES \;
+  cd /tmp/FILES
+  ls -lh
+5.find /tmp/FILES/ -type f -exec cp {} {}.mybackup \;
+6.find / -size +1024k -print
+7.
