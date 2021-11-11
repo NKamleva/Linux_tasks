@@ -11,4 +11,17 @@
   ls -lh
 5.find /tmp/FILES/ -type f -exec cp {} {}.mybackup \;
 6.find / -size +1024k -print
-7.
+7.touch alalalla
+  ls -i
+  find . -maxdepth 1 -inum 789621 -exec rm -f '{}' \;
+8.find /tmp -user $LOGNAME -type f -exec rm '{}' \;
+9.locate '*/README'
+10.touch filefile2
+   locate filefile2
+   sudo updatedb
+   locate filefile2
+   rm filefile2
+   locate filefile2
+   sudo updatedb
+   locate filefile2
+11.
