@@ -24,4 +24,9 @@
    locate filefile2
    sudo updatedb
    locate filefile2
-11.
+11.grep -rnsi --color "init" /proc/1
+12.egrep "\<king('s daughter)?\>" Frog.txt
+13.grep :/bin/bash$ /etc/passwd
+14.n='[^ariou]*'
+   grep -i ${n}a${n}e${n}i${n}o${n}u${n}$ /usr/share/dict/words
+15.egrep -n (\<[A-Za-z]{4,}\>).*\<\1\>' Frog.txt
