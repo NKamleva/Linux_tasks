@@ -1,0 +1,2 @@
+1.tail -n +13 1.txt| head -n 1
+2.The first window displays the text that is entered in the second
