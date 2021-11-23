@@ -1,2 +1,5 @@
 1.tail -n +13 1.txt| head -n 1
 2.The first window displays the text that is entered in the second
+3.A warning appears.
+4.head -n 20 /etc/passwd | tail -n 6
+5.tail -n +10 1.txt
