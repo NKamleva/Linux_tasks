@@ -3,3 +3,4 @@
 3.A warning appears.
 4.head -n 20 /etc/passwd | tail -n 6
 5.tail -n +10 1.txt
+6.find /tmp -type f -exec head -n -20 {} \;
