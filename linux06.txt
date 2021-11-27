@@ -4,3 +4,10 @@
 4.head -n 20 /etc/passwd | tail -n 6
 5.tail -n +10 1.txt
 6.find /tmp -type f -exec head -n -20 {} \;
+7.touch data.txt
+8.sort -k3,3 -k1,1 -k2,2 data.txt
+9.sort -k3,3 -k4,4nr data.txt 
+10.touch {01,02,03,04,05,06,07,08,09,10,11,12}-{2002,2003}.txt
+   ls | sort -t- -k2,2n -k1,1n
+11.cut -f 1,2,5 data.txt > data1.txt
+12.cut --output-delimiter=': ' -f 1,2,5 data.txt > data2.txt
