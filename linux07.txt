@@ -1,2 +1,4 @@
 1.ps -Af | less
 2.ps -N -u root
+3.ps -C ps
+4.ps -eo 'pid' | less
