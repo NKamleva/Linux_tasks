@@ -18,3 +18,12 @@
 10.gedit &
    kill -SIGSTOP 3256
 11.killall -SIGCONT gedit
+12.nice -n 5 gedit &
+13.renice -n 7 3465
+   ps -eo 'user,nice,comm' | grep gedit
+14.xeyes &
+   xeyes &
+   xeyes & 
+   ...
+   xeyes &
+   killall xeyes
