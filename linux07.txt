@@ -2,3 +2,19 @@
 2.ps -N -u root
 3.ps -C ps
 4.ps -eo 'pid' | less
+5.whoami
+  ps -u natasha | less
+6.top
+  P
+  M
+  T
+7.ps -ef --sort=user | less
+8.ps -eo 'pid,user,group,vsz,rss,comm' | less
+9.top
+  P
+  M
+  P
+  M
+10.gedit &
+   kill -SIGSTOP 3256
+11.killall -SIGCONT gedit
