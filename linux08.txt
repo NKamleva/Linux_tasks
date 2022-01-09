@@ -1,0 +1,4 @@
+1.mkdir f1
+  cd f1 
+  touch file1 file2
+  tar -cvf f1.tar --directory=f1 file1 file2
