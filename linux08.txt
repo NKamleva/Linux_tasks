@@ -1,4 +1,15 @@
 1.mkdir f1
   cd f1 
   touch file1 file2
+  cd
   tar -cvf f1.tar --directory=f1 file1 file2
+2.mkdir f2
+  cd f2
+  touch file3 file4
+  cd
+  tar -rvf f1.tar --directory=f2 file3
+  tar --delete -f f1.tar file1
+3.tar -tf f1.tar
+  cd f1
+  ls -al
+4.
