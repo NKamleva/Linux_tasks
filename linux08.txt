@@ -16,3 +16,8 @@
   split -b 2K f1.tar "f1.tar.part"
   ls -lh f1.tar.parta*
   cat f1.tar.parta* > f2.tar
+5.tar -czvf final_archive.tar f1.tar f2.tar
+6.mkdir{1,2,3}
+  tar -xvf final_archive.tar -C ff1
+  tar -xvf f1.tar -C ff2
+  tar -xvf f2.tar -C ff3
