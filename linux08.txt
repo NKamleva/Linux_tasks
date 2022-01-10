@@ -12,4 +12,7 @@
 3.tar -tf f1.tar
   cd f1
   ls -al
-4.
+4.ls -lh f1.tar
+  split -b 2K f1.tar "f1.tar.part"
+  ls -lh f1.tar.parta*
+  cat f1.tar.parta* > f2.tar
