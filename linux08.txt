@@ -21,3 +21,22 @@
   tar -xvf final_archive.tar -C ff1
   tar -xvf f1.tar -C ff2
   tar -xvf f2.tar -C ff3
+7.mkdir folder01
+  cd folder01
+  touch file1
+  echo "lalala" > file1
+  touch file2
+  echo "aaaaaa" > file2
+  touch file3
+  echo "bbbbb" > file3
+  cd
+  a)tar -czvf folder01a.tar folder01
+  b)tar -cvf folder01b.tar folder01
+    gzip folder01b.tar
+  c)tar -cvf folder01c.tar folder01
+    bzip2 -z folder01c.tar
+  d)zip -r folder01d.tar folder01
+  e)- tar -xvf folder01a.tar
+    - gzip -d folder01b.tar
+    - bzip2 -d folder01c.tar
+    - unzip folder01d.tar
