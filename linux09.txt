@@ -25,3 +25,4 @@
    w
    partprobe /dev/sdb
    grep sdb /proc/partitions
+3. mkfs -t ext3 /dev/sdb1
