@@ -1,1 +1,27 @@
 1. ls -l /dev | grep -E 'sd|hd'
+2. fdisk /dev/sdb
+   d
+   n
+   p
+   1
+   ENTER
+   +100M
+   n
+   p
+   2
+   ENTER
+   +200M
+   n
+   p
+   3
+   ENTER
+   +500M
+   t
+   2
+   82
+   t
+   3
+   8e
+   w
+   partprobe /dev/sdb
+   grep sdb /proc/partitions
