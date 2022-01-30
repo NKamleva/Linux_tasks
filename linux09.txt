@@ -30,3 +30,9 @@
    sudo mount -t ext3 /dev/sdb1 /mnt/mypart 
 5. sudo mkswap /dev/sdb2
    sudo swapon /dev/sdb2
+6. sudo pvcreate /dev/sdb3
+   sudo vgcreate abc /dev/sdb3
+   sudo lvcreate -n data -L 200M abc
+   sudo mkfs -t vfat /dev/mapper/abc-data
+   sudo mkdir /mnt/test
+   sudo mount /dev/mapper/abc-data /mnt/test
