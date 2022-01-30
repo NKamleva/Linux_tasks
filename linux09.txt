@@ -36,3 +36,14 @@
    sudo mkfs -t vfat /dev/mapper/abc-data
    sudo mkdir /mnt/test
    sudo mount /dev/mapper/abc-data /mnt/test
+7. sudo lvextend -L +100M /dev/mapper/abc-data
+   sudo resize2fs -p /dev/mapper/abc-data
+8. sudo umount /dev/sdb1
+   sudo swapoff /dev/sdb2
+   sudo umount /mnt/test
+   sudo lvremove /dev/mapper/abc-data
+   sudo vgremove abc
+   sudo pvremove /dev/sdb3
+9. du -s /usr/share* | sort -rn | head
+10.df -h -x tmpfs -x devtmpfs
+11. find /usr -size +10M
