@@ -1,3 +1,5 @@
 useradd natasha1
 passwd natasha1
 ssh natasha1@nk
+1.ssh natasha1@nk
+2.ssh natasha1@nk "cat /proc/version"
