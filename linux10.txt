@@ -9,3 +9,14 @@ ssh natasha1@nk
   ls -l /tmp/help | head
 5.rsync -av natasha1@nk:/usr/share/locale /tmp
   ls -l /tmp/locale | head
+6.ssh-keygen
+  <ENTER>
+  y
+  <ENTER>
+  <ENTER>
+  ssh-copy-id -i ~/.ssh/id_rsa.pub natasha1@nk
+  ssh natasha1@nk
+  cat .ssh/authorized_keys
+7.vi /etc/rsyslog.conf
+  service rsyslog restart
+  tail -f /var/log/myauth                 ssh natasha1@nk
