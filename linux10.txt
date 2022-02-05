@@ -5,3 +5,7 @@ ssh natasha1@nk
 2.ssh natasha1@nk "cat /proc/version"
 3.ssh -X natasha1@nk "gedit newfile"
   ssh natasha1@nk "cat newfile"
+4.scp -r natasha1@nk:/usr/share/help /tmp
+  ls -l /tmp/help | head
+5.rsync -av natasha1@nk:/usr/share/locale /tmp
+  ls -l /tmp/locale | head
