@@ -1,3 +1,5 @@
-1.useradd -c "Joh Baxter" -s /bin/sh jbaxter
-  passwd jbaxter
+1.sudo useradd -c "Joh Baxter" -s /bin/sh jbaxter
+  sudo passwd jbaxter
   My1N1teOut
+2.sudo groupadd -g 315
+3.sudo usermod -aG testing,bin jbaxter
