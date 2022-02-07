@@ -3,3 +3,15 @@
   My1N1teOut
 2.sudo groupadd -g 315
 3.sudo usermod -aG testing,bin jbaxter
+4.sudo su - jbaxter
+  newgrp testing
+  touch /home/jbaxter/file.txt
+  ls -l /home/jbaxter/file.txt
+  exit
+  exit
+5.sudo userdel jbaxter
+6.find /home -uid 1003 -ls
+7.cp /etc/services /etc/skeleton/
+  sudo useradd -d /home/maryjones -c "Mary Jones" mjones
+8.find /home -user mjones -ls
+  All files jbaxter now belong to mjones.
